@@ -1,0 +1,19 @@
+<resources>
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">@color/darker_grey</item>
+    </style>
+
+    <style name="CustomTheme" parent="android:Theme.Light">
+        <item name="android:windowTitleSize">@dimen/bar_height</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+        <item name="android:windowBackground">@color/grey</item>
+    </style>
+
+    <style name="ButtonTheme">
+        <item name="android:layout_width">155dip</item>
+        <item name="android:layout_height">50dip</item>
+        <item name="android:background">@color/darker_grey</item>
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+</resources>
